@@ -1,0 +1,7 @@
+def calculate_planet_square(distance):
+    return distance ** 2
+
+# Example usage
+planet_distance = 149.6e9  # Earth's distance from the sun in meters
+squared_distance = calculate_planet_square(planet_distance)
+print("The square of the planet's distance from the sun is:", squared_distance, "meters")
